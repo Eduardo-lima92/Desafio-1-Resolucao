@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    font-family: 'Inter';
+}
+#container-superior{
+    background-color: #303030;
+    color: #FFFFFF; 
+}
+#titulo-superior{
+    padding: 180px 0px 110px 50px;
+}
+#titulo-superior h1{
+    font-size: 56px;
+}
+#titulo-superior p{
+    font-size: 20px;
+}
+#menu-superior{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F9F9F9;
+    padding: 80px 0px 65px 130px;
+}
+#menu-superior p{
+    font-size: 20px;
+}
+#experiencia{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 70px;
+}
+#texto-experiencia{
+    padding: 180px 0px 0px 70px;
+    
+}
+#texto-experiencia p{
+    font-size: 20px;
+}
+#imagem-experiencia{
+    width: 510px;
+    height: 605px;
+    
+}
+#formulario{
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 110px;
+    padding: 75px 0px 90px 0px; 
+    font-size: 16px;
+
+}
+.dados{
+    height: 60px;
+    width: 480px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px; 
+    font-weight: bolder;
+    cursor: pointer;  
+}
+button:hover{
+    background-color: #dd861b;
+    transform: translateY(3px);
+    box-shadow: 0px 15px 15px #694a25; 
+    transition-duration: 0.3s;
+
+    
+}
+
+
+
